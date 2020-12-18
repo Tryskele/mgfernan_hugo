@@ -1,4 +1,76 @@
 baseURL = "http://mgfernan.com/"
-languageCode = "en-us"
-title = "Welcome to my site"
+title = "Mgfernan site"
 theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+  author = "Miquel Garcia"
+  info = "GNSS Engineer and daydreamer"
+  description = "Miquel Garcia personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  gravatar = "miquel.garciafernandez@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
+
+  enableTwemoji = true
+
+  colorsheme = "auto"
+  hidecolorschemetoggle = false
+
+#  customCSS = ["css/custom.css"]
+#  customSCSS = ["scss/custom.scss"]
+#  customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Tryskele/"
+[[params.social]]
+  name = "Linked"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/miquelgarcia/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/miquelgarciaf/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "blog/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
